@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, rgb(0, 162, 255), aqua);
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Erica One', cursive;
+  font-size: 90px;
+  margin: 0px;
+  color: rgb(0, 103, 187);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  background-color: white;
+  border: 1px solid rgba(0, 225, 255, 0.637);
+  box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.219);
+  transition: box-shadow 0.5s ease;
+  width: 50%;
+}
+.container:hover {
+  box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.404);
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  font-family: 'Bungee Inline', cursive;
+  background-color: rgb(228, 228, 228);
+  font-size: 25px;
+}
+
+p {
+  font-size: 13px;
+  font-style: italic;
+}
+
+.add-tasks {
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.tasks {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.listedItem {
+  font-size: 20px;
+  border: 1px solid rgba(114, 114, 114, 0.781);
+  padding: 5px 10px;
+  margin-bottom: 2px;
+}
+.listedItem:hover {
+  background-color: lightgray;
+  color: black;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+#input-task {
+  border: none;
+  border-bottom: 1px solid rgb(114, 114, 114);
+  font-size: 20px;
+}
+
+.inputs {
+  display: flex;
+}
+
+button {
+  margin-left: 5px;
+  padding: 8px 20px;
+  color: white;
+  font-size: 17px;
+  background-color: rgb(0, 103, 187);
+  border-radius: 5px;
+}
+button:hover {
+  background-color: rgb(91, 152, 202);
+}
